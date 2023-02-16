@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header .nav {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.butt {
+    display: flex;
+
+}
+
+.buttons {
+    background-color: #6342e4;
+    padding: 8px 16px;
+    color: #fff;
+    margin: 8px;
+}
+
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.main .title {
+    height: 400px;
+
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.main .title .kiri {
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .title .kiri h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main .title .kiri p {
+    margin-bottom: 40px;
+}
+
+.main .title .bungkusan-tombol {
+    display: flex;
+}
+
+.bungkusan-tombol .tombol-kiri {
+    background-color: #6342e4;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.bungkusan-tombol .tombol-kanan {
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    color: #6342e4;
+    border: solid 1px #6342e4;
+}
+
+.kanan {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 500px;
+}
